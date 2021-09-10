@@ -1,0 +1,14 @@
+{
+  "name": "jasontiw",
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {
+    "express": "^4.17.1",
+    "serverless-dotenv-plugin": "^3.9.0",
+    "serverless-http": "^2.7.0",
+    "serverless-offline": "^8.1.0"
+  },
+  "scripts": {
+    "debug-windows": "SET SLS_DEBUG=* && node --inspect %USERPROFILE%\\AppData\\Roaming\\npm\\node_modules\\serverless\\bin\\serverless offline -s dev"
+  }
+}
